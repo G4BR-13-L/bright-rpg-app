@@ -1,0 +1,10 @@
+.teste{
+	background: rgb(15,35,74);
+background: linear-gradient(133deg, rgba(15,35,74,1) 1%, rgba(5,5,79,1)18%, rgba(4,2,32,1) 55%);
+	width:100%;
+	font-family: 'Circular Bold';
+	color: white;
+	font-size: 40px;
+	padding: 80px 0 0 80px;
+	background-color: #0f1631;
+}

@@ -1,0 +1,69 @@
+@font-face{
+	font-family: 'Circular Bold';
+	src:url('../../assets/fonts/Circular Std Bold.ttf');
+}
+.container{
+	background:#07090F;
+	padding-top:30px;
+	font-family: 'Circular Bold';
+	color: white;
+	z-index:200;
+	
+}
+.logo{
+	font-size: 7vh;
+	font-weight: bolder;
+	width:100%;
+	text-align: center;
+	margin-top:10px;
+}
+.drawer{
+	display:flex;
+	flex-flow: column;
+	justify-content: space-between;
+	height:auto;
+	margin:0;
+	
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.side-bar-list{
+	width:100%;
+	font-size: 30px;
+	list-style: none;
+	padding: 0;
+}
+.side-bar-list .side-bar-list-li{
+	padding:10px 0;
+	width: 100%;
+	margin-left: 0;
+	
+
+
+}
+.side-bar-list .side-bar-list-li:hover{
+	background-color: #0b0d17;
+}
+span{
+	font-size: 30px;
+	padding:10px 0 0 10px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+
+
+}
+span:hover{
+	background-color: #0b0d17;
+}
+.sizePad{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	
+}

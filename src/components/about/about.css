@@ -1,0 +1,20 @@
+
+@font-face{
+	font-family: 'Circular Bold';
+	src:url('../../assets/fonts/Circular Std Bold.ttf');
+}
+@font-face{
+	font-family: 'Circular Book';
+	src:url('../../assets/fonts/Circular Std Book.ttf');
+}
+.about{
+
+	background-color: #0f1631;
+	width:100%;
+	font-family: 'Circular Bold';
+	color: white;
+	font-size: 40px;
+	padding: 80px 0 0 80px;
+	background-color: #0f1631;
+
+}

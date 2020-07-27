@@ -1,0 +1,53 @@
+@font-face{
+	font-family: 'Circular Bold';
+	src:url('../../assets/fonts/Circular Std Bold.ttf');
+}
+@font-face{
+	font-family: 'Circular Black';
+	src:url('../../assets/fonts/Circular Std Black.ttf');
+}
+@font-face{
+	font-family: 'Circular Book';
+	src:url('../../assets/fonts/Circular Std Book.ttf');
+}
+.stick-card{
+	font-family: 'Circular Book';
+	font-weight: bolder;
+	/*background: red/*#d3d4d9*/
+	border-radius: 20px;
+	min-width:45%;
+	height:230px;
+	padding:0px;
+	display: grid;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	box-shadow: 15px 15px 0px #0b0d17;
+	transition:0.5s;
+}
+.stick-card:hover{
+	border:10px solid #bb0a21;
+	box-shadow: 0px 0px 0px #bb0a21;
+}
+.card-gradient{
+	margin:0;
+	color: white;
+	z-index: 295;
+	border-radius: 20px;
+	background: rgb(196,196,255);
+    background: linear-gradient(180deg, rgba(196,196,255,0) 0%, rgba(7,9,15,0.9) 100%);
+    display: grid;
+    grid-template-rows: 5fr 2fr;
+}
+.title-card{
+	grid-row: 2/2;
+	font-size: 4vh;
+	margin:0 20px;
+	border-radius: 20px;
+	display: hidden;
+}
+.card-background{
+	position: inherit;
+	z-index: 290;
+	background-color: red;
+}

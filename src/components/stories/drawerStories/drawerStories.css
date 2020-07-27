@@ -1,0 +1,64 @@
+@font-face{
+	font-family: 'Circular Bold';
+	src:url('../../../assets/fonts/Circular Std Bold.ttf');
+}
+
+.drawerStories {
+	background-color:white;
+	grid-row: 1/1;
+	font-family:'Circular Bold';
+	
+	border-radius: 30px;
+	display: hidden;
+}
+.drawerStories a{
+	color:#07090F;
+}
+.drawer-stories-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: initial;
+	color:#07090F;
+	list-style: none;
+
+}
+.drawer-stories-list-li{
+	font-size: 7vh;
+	color:#07090F;
+	border-radius:10px;
+	margin-right: 60px;
+	
+}
+.drawer-stories-list-li:hover{
+	color:#07090F;
+}
+#canon_bottom{
+
+}
+#legend_bottom{
+
+}
+
+
+
+
+
+
+@media(max-width: 640px){
+
+	.drawer-stories-list-li{
+		width: 70%;
+		padding:0 20px;
+		font-size: 6vh;
+		color:#07090F;
+
+	}
+	.drawer-stories-list-li:hover{
+		background-color: #ff0228;
+		color:white;
+
+	}
+	.drawerStories a:hover{
+		color:white;
+	}
+}
